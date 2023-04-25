@@ -1,6 +1,6 @@
 # ecom
 
-To run the code:
+To run the project:
 
 1. clone the repo
 2. open the folder in vs code
@@ -13,3 +13,4 @@ To run the code:
 10. npm start server
 11. now go back to first terminal
 12. npm start
+13. Open any browser and go to http://localhost:3000/login     (Don't go to http://localhost:3000)
