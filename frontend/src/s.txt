@@ -1,0 +1,73 @@
+<div style={{width: "360px"}}> 
+                    
+                    <form onSubmit={handleSubmit}>
+                    <div class="mb-3" >
+                        <label for="product_name" class="form-label">Product Name</label>
+                        
+                        <input type="text" 
+                        class="form-control" 
+                        id="product_name" 
+                        placeholder="Product Name"
+                        value ={product_name}
+                        onChange={handleInputChange}
+                    />
+
+
+                    </div>
+
+                    <div class="mb-3" >
+                        <label for="category" class="form-label">Product Category</label>
+                        <input type="text" 
+                        class="form-control" 
+                        id="category" 
+                        placeholder="Product Category"
+                        value ={category}
+                        onChange={handleInputChange}
+                        />
+
+                    </div>
+                    
+                    <div class="mb-3" >
+                        <label for="num_item" class="form-label">No. of Items</label>
+                        <input type="text" 
+                        class="form-control" 
+                        id="num_item" 
+                        placeholder="No. of items"
+                        value ={num_item}
+                        onChange={handleInputChange}
+                        />
+
+                    </div>
+
+                    <div class="input-group">
+                        <label for="exampleFormControlTextarea1" class="form-label mr-3">Price </label>
+                
+                        <span class="input-group-text">₹</span>
+                        <input type="text" 
+                        class="form-control" 
+                        aria-label="Dollar amount (with dot and two decimal places)"
+                        id = "price"
+                        value={price}
+                        onChange={handleInputChange}
+                        />
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Description</label>
+                        <textarea class="form-control" 
+                        id="description"
+                        rows="3"
+                        value={description}
+                        onChange={handleInputChange}
+
+                        ></textarea>
+                    </div>
+
+                    <button type="submit" className="btn btn-success w-100 my-2" >Save</button>
+                    <Link to="/">
+                        <button className='btn btn-secondary w-100 my-2'>Go Back</button>
+                    </Link>
+                    
+                    </form>
+
+                </div>
