@@ -5,7 +5,7 @@ To run the project:
 1. clone the repo
 2. open the folder in vs code
 3. open terminal
-4. cd frontend
+4. cd frontend/src
 5. npm install
 6. open another terminal
 7. cd backend
